@@ -2,19 +2,19 @@
 
 ## 🔹 Índice
 
-1. ##### [Visão Geral](#visão-geral)
-2. ##### [Tecnologias Utilizadas](#tecnologias-utilizadas)
-3. ##### [Arquitetura e Estrutura](#arquitetura-e-estrutura)
-4. ##### [Pré-requisitos](#pré-requisitos)
-5. ##### [Como Executar o Projeto](#como-executar-o-projeto)
+1.  ##### [Visão Geral](#visão-geral)
+2.  ##### [Tecnologias Utilizadas](#tecnologias-utilizadas)
+3.  ##### [Arquitetura e Estrutura](#arquitetura-e-estrutura)
+4.  ##### [Pré-requisitos](#pré-requisitos)
+5.  ##### [Como Executar o Projeto](#como-executar-o-projeto)
    - ##### [Backend (Quarkus + Docker + PostgreSQL)](#backend)
    - ##### [Frontend (Vue 3 + Tailwind CSS)](#frontend)
-6. ##### [Protótipo e Design](#protótipo-e-design)
-7. ##### [Fluxo de Dados](#fluxo-de-dados)
-8. ##### [Base de Dados](#base-de-dados)
-9. ##### [Clean Code e Boas Práticas](#clean-code-e-boas-práticas)
-10. ##### [Contribuição](#contribuição)
-11. ##### [Licença](#licença)
+6.  ##### [Protótipo e Design](#protótipo-e-design)
+7.  ##### [Fluxo de Dados](#fluxo-de-dados)
+8.  ##### [Base de Dados](#base-de-dados)
+9.  ##### [Clean Code e Boas Práticas](#clean-code-e-boas-práticas)
+10.  ##### [Contribuição](#contribuição)
+11.  ##### [Licença](#licença)
 
 ---
 
@@ -36,7 +36,7 @@ O frontend foi construído com **Vue 3** e **Tailwind CSS**, enquanto o backend 
   - Axios
 
 - **Backend**:
-  - Java 17
+  - Java 22
   - Quarkus Framework
   - RESTEasy JSON-B
   - Hibernate ORM
@@ -87,7 +87,7 @@ Antes de iniciar, certifique-se de ter instalado:
 
 - Docker e Docker Compose
 - Node.js (versão >= 16)
-- Java 17
+- Java 21
 - Git
 
 ---
@@ -112,7 +112,7 @@ Antes de iniciar, certifique-se de ter instalado:
 
 1. Em outra aba do terminal, acesse o diretório frontend:
    ```bash
-   cd frontend
+   cd salario-vue
    ```
 2. Instale as dependências:
    ```bash
@@ -122,7 +122,7 @@ Antes de iniciar, certifique-se de ter instalado:
    ```bash
    npm run dev
    ```
-4. A aplicação Vue estará disponível em `http://localhost:3000`.
+4. A aplicação Vue estará disponível em `http://localhost:5173`.
 
 ---
 
