@@ -1,12 +1,18 @@
-# Stage 1: build com Maven + OpenJDK 21
-FROM maven:3-openjdk-21 AS build
+# Stage 1: build com JDK 21 + Maven manualmente
+FROM eclipse-temurin:21-jdk AS build
+
+# Instala Maven
+RUN apt-get update && \
+    apt-get install -y maven && \
+    apt-get clean
+
 WORKDIR /app
 
 COPY pom.xml .
 COPY src ./src
 RUN mvn clean package -DskipTests
 
-# Stage 2: runtime com Eclipse Temurin 21
+# Stage 2: runtime (só a JDK limpa)
 FROM eclipse-temurin:21-jdk AS runtime
 WORKDIR /app
 
