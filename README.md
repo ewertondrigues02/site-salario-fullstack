@@ -15,8 +15,8 @@
 9. ##### [Clean Code e Boas Práticas](#-clean-code-e-boas-práticas)
 10. ##### [Contribuição](#-contribuição)
 11. ##### [Licença](#-licença)
-12. ##### [Licença](#-capa)
-13. ##### [Licença](#-demonstracao)
+12. ##### [Capa](#-capa)
+13. ##### [Demonstração](#-demonstracao)
 ---
 
 ## Visão Geral
