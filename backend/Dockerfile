@@ -1,12 +1,12 @@
-# Stage 1: build com Maven + JDK 21
-FROM maven:3.9.7-jdk-21 AS build
+# Stage 1: build com Maven + OpenJDK 21
+FROM maven:3-openjdk-21 AS build
 WORKDIR /app
 
 COPY pom.xml .
 COPY src ./src
 RUN mvn clean package -DskipTests
 
-# Stage 2: runtime com Temurin 21
+# Stage 2: runtime com Eclipse Temurin 21
 FROM eclipse-temurin:21-jdk AS runtime
 WORKDIR /app
 
