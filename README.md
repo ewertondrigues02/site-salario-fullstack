@@ -2,19 +2,19 @@
 
 ## 🔹 Índice
 
-1. [Visão Geral](#visão-geral)
-2. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-3. [Arquitetura e Estrutura](#arquitetura-e-estrutura)
-4. [Pré-requisitos](#pré-requisitos)
-5. [Como Executar o Projeto](#como-executar-o-projeto)
-   - [Backend (Quarkus + Docker + PostgreSQL)](#backend)
-   - [Frontend (Vue 3 + Tailwind CSS)](#frontend)
-6. [Protótipo e Design](#protótipo-e-design)
-7. [Fluxo de Dados](#fluxo-de-dados)
-8. [Base de Dados](#base-de-dados)
-9. [Clean Code e Boas Práticas](#clean-code-e-boas-práticas)
-10. [Contribuição](#contribuição)
-11. [Licença](#licença)
+1. ##### [Visão Geral](#visão-geral)
+2. ##### [Tecnologias Utilizadas](#tecnologias-utilizadas)
+3. ##### [Arquitetura e Estrutura](#arquitetura-e-estrutura)
+4. ##### [Pré-requisitos](#pré-requisitos)
+5. ##### [Como Executar o Projeto](#como-executar-o-projeto)
+   - ##### [Backend (Quarkus + Docker + PostgreSQL)](#backend)
+   - ##### [Frontend (Vue 3 + Tailwind CSS)](#frontend)
+6. ##### [Protótipo e Design](#protótipo-e-design)
+7. ##### [Fluxo de Dados](#fluxo-de-dados)
+8. ##### [Base de Dados](#base-de-dados)
+9. ##### [Clean Code e Boas Práticas](#clean-code-e-boas-práticas)
+10. ##### [Contribuição](#contribuição)
+11. ##### [Licença](#licença)
 
 ---
 
@@ -136,7 +136,7 @@ O design do projeto foi prototipado no **Figma**, garantindo alinhamento com o e
 
 Para visualizar o protótipo, acesse o link do arquivo Figma:
 
-> [Protótipo no Figma](<link-figma>)
+> ##### [Protótipo no Figma](<link-figma>)
 
 ---
 
@@ -192,7 +192,11 @@ Contribuições são bem-vindas! Para contribuir:
 
 ## 🔹 Licença
 
-Este projeto está licenciado sob a **MIT License**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a **MIT License**. Veja o arquivo:
+
+##### [LICENSE](LICENSE) para mais detalhes.
+
+---
 
 ![site-salati-capa](https://github.com/user-attachments/assets/f4789a61-5834-4dc7-a080-cdb0562f4477)
 
