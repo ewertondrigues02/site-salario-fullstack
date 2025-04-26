@@ -10,7 +10,7 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 # Stage 2: runtime
-FROM eclipse-temurin:17-jdk-slim
+FROM eclipse-temurin:17-jdk
 WORKDIR /app
 
 # Copia o JAR gerado no primeiro stage
