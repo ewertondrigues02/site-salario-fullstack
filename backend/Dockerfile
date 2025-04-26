@@ -3,8 +3,8 @@ FROM maven:3.9.0-eclipse-temurin-17 AS build
 WORKDIR /app
 
 # Ajuste os caminhos para apontar para backend
-COPY backend/pom.xml .
-COPY backend/src ./src
+COPY pom.xml .
+COPY src ./src
 
 RUN mvn clean package -DskipTests
 
