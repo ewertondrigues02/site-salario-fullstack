@@ -1,6 +1,6 @@
 # Projeto Fullstack - Plataforma Inspirada no Airbnb
 
-## 🔹 Índice
+ ## Índice
 
 1. ##### [Visão Geral](#visão-geral)
 2. ##### [Tecnologias Utilizadas](#tecnologias-utilizadas)
@@ -18,7 +18,7 @@
 
 ---
 
-## 🔹 Visão Geral
+## Visão Geral
 
 Este projeto consiste em uma plataforma inspirada no Airbnb, desenvolvida com foco em **experiência do usuário**, **performance** e **escalabilidade**. A aplicação permite usuários visualizarem e reservarem propriedades disponíveis, seguindo padrões de design modernos e boas práticas de desenvolvimento.
 
