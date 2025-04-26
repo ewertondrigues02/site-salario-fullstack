@@ -1,5 +1,5 @@
-# Stage 1: build com JDK 21
-FROM maven:3.9.0-openjdk-21 AS build
+# Stage 1: build com Maven + JDK 21
+FROM maven:3.9.0-jdk-21 AS build
 WORKDIR /app
 
 COPY pom.xml .
