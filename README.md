@@ -15,7 +15,8 @@
 9. ##### [Clean Code e Boas Práticas](#-clean-code-e-boas-práticas)
 10. ##### [Contribuição](#-contribuição)
 11. ##### [Licença](#-licença)
-
+12. ##### [Licença](#-capa)
+13. ##### [Licença](#-demonstracao)
 ---
 
 ## Visão Geral
@@ -198,11 +199,12 @@ Este projeto está licenciado sob a **MIT License**. Veja o arquivo:
 
 ---
 
+## 🔹 Capa
 ![site-salati-capa](https://github.com/user-attachments/assets/f4789a61-5834-4dc7-a080-cdb0562f4477)
 
 ---
 
-## 🔹 Video de Demonstração
+## 🔹 Demonstração
 
 ![site-salario-demonstracao](https://github.com/user-attachments/assets/99ac46a6-20e4-4bfa-b01d-b333be14345f)
 
