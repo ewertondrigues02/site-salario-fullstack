@@ -2,7 +2,7 @@
 
  ## Índice
 
-1. ##### [Visão Geral](##visão-geral)
+1. ##### [Visão Geral](#visão-geral)
 2. ##### [Tecnologias Utilizadas](#####tecnologias-utilizadas)
 3. ##### [Arquitetura e Estrutura](#####arquitetura-e-estrutura)
 4. ##### [Pré-requisitos](#####pré-requisitos)
