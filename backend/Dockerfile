@@ -1,12 +1,24 @@
-# Use uma imagem base do OpenJDK
-FROM openjdk:21-jdk-slim as build
+# Stage 1: build
+FROM maven:3.9.0-eclipse-temurin-17 AS build
+WORKDIR /app
 
-# Copie os arquivos do projeto para o container
-COPY target/salario-1.0.0-SNAPSHOT-runner.jar /app.jar
+# Copia pom.xml e código-fonte
+COPY pom.xml .
+COPY src ./src
 
-# Defina a variável de ambiente que configura o host e a porta do Quarkus
-ENV QUARKUS_HTTP_HOST=0.0.0.0
-ENV QUARKUS_HTTP_PORT=8081
+# Gera o JAR nativo (ou JAR empacotado)
+RUN mvn clean package -DskipTests
 
-# Comando para rodar o JAR
-CMD ["java", "-jar", "/app.jar"]
+# Stage 2: runtime
+FROM eclipse-temurin:17-jdk-slim
+WORKDIR /app
+
+# Copia o JAR gerado no primeiro stage
+COPY --from=build /app/target/*-runner.jar /app/app.jar
+
+# Expõe porta (se necessário)
+EXPOSE 8081
+
+# Comando de inicialização
+ENTRYPOINT ["java","-jar","/app/app.jar"]
+
