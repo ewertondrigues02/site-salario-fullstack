@@ -200,4 +200,10 @@ Este projeto está licenciado sob a **MIT License**. Veja o arquivo:
 
 ![site-salati-capa](https://github.com/user-attachments/assets/f4789a61-5834-4dc7-a080-cdb0562f4477)
 
+---
+
+## 🔹 Video de Demonstração
+
+![site-salario-demonstracao](https://github.com/user-attachments/assets/99ac46a6-20e4-4bfa-b01d-b333be14345f)
+
 
